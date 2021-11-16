@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> INNOWEB </title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>INNOWEB</h1>
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Terug naar de homepage</a></li>
+                <li><a href="about.html">Wie ben ik</a></li>
+                <li><a href="http://www.google.nl">Ga naar Google</a></li>
+
+            </ul>
+        </nav>
+
+        <hr>
+
+        <main>
+
+            <section>
+
+                <div class="box-1">
+
+                    <h2 class="black-border" id="beige-backround">Contact </h2>
+
+                    <p>Schroom niet: voor (aan)vragen, opmerkingen en suggesties kunt u het contactformulier gebruiken.
+                    </p>
+
+                    <form name="contact" method="post" data-netlify="true">
+                        <label> Naam:<input type="text" name="Name" id="Name" value="Vul hier uw naam in"></label>
+                        <label> E-Mail:<input type="email" name="email" id="email"
+                                value="Vul hier uw e-mailadres in"></label>
+                        <label> Telefoonnummer:<input type="tel" name="phonenumber" id="phone"
+                                value="Vul hier uw telefoonnummer in"></label>
+                        <label> Leeftijd:<input type="text" name="age" id="age" value="Vul hier uw leeftijd in"></label>
+                        <label> Geboortedatum:<input type="date" name="birthdate" id="birthdate"
+                                value="Vul hier uw geboortedatum in"></label>
+                        <div class="geslacht"> Geslacht:
+                            <div class="man"><input type="radio" name="gender" id="Man" value="Man"> <label
+                                    for="man">Man</label></div>
+
+                            <div class="vrouw"><input type="radio" name="gender" id="Vrouw" value="Vrouw"> <label
+                                    for="vrouw">Vrouw</label></div>
+
+                            <div class="wiliknietzeggen"><input type="radio" name="gender" id="wil ik niet zeggen"
+                                    value="Wil ik niet zeggen"> <label for="wil ik niet zeggen">Wil ik niet
+                                    zeggen</label> </div>
+                        </div>
+
+
+                        <div class="kitchen"> Favoriete keuken:
+                            <div class="french"><input type="checkbox" name="kitchen" id="french" value="french"> <label
+                                    for="french">Frans</label></div>
+
+                            <div class="italian"><input type="checkbox" name="kitchen" id="italian" value="italian">
+                                <label for="italian">Italiaans</label></div>
+
+                            <div class="spanish"><input type="checkbox" name="kitchen" id="spanish" value="spanish">
+                                <label for="spanish">Spaans</label></div>
+                            <div class="arabic"><input type="checkbox" name="kitchen" id="arabic" value="arabic"> <label
+                                    for="arabic">Arabisch</label></div>
+
+                        </div>
+
+                        <label class="favouritecolor"> Favoriete kleur schort:<input type="color" name="color"
+                                id="color" value="Vul hier uw favoriete kleur in">
+
+
+
+
+                        </label>
+                        <label> Biografie: <textarea type="textarea" name="biography"
+                                id="biography"> Vul hier uw biografie in </textarea></label>
+                        <label> Upload je laatste recept:<input type="file" name="recipe" id="recipe"
+                                value="Upload hier uw bestand"></label>
+                        <label> Website-url:<input type="url" name="website" id="website"
+                                value="Vul hier uw website-url in"></label>
+                        <label><input type="reset" name="reset" id="reset" value="Reset"></label>
+                        <label><input type="submit" name="submit" id="submit" value="Versturen"></label>
+                    </form>
+
+
+
+
+                </div>
+
+
+            </section>
+        </main>
+
+        <footer>
+
+
+        </footer>
+        <!-- hier zet je de code in de body tags-->
+
+    </div>
+</body>
+
+</html>

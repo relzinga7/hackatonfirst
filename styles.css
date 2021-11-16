@@ -1,0 +1,681 @@
+@import url(http://fonts.googleapis.com/css?family=DoHyeon|DMSans);
+
+body {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 92px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 0px;
+    margin-top: -16px;
+    padding: 0;
+
+
+}
+
+
+.innerheader {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(red);
+}
+
+.logocontainer {
+    height: 100%;
+    display: table;
+    float: left;
+    
+}
+
+.menucontainer {
+    height: 100%;
+    display: table;
+    float: right;
+    vertical-align: middle;
+    
+    
+}
+
+.menucontainer ul li a {
+    vertical-align: middle;
+}
+
+.menucontainer ul {
+    vertical-align: middle;
+
+}
+
+.menucontainer ul li {
+    vertical-align: middle;
+    padding-top: 57px;
+    padding-bottom: 0px;
+    
+}
+
+
+
+.yellowbar {
+    height: 20px;
+    background-color: rgba(255, 199, 0, 0.86);
+    border: rgba(255, 199, 0, 0.86);
+
+}
+
+.fixedmenu {
+    display: block;
+    position: sticky;
+    top: -5%;
+}
+
+
+
+.container {
+    width: 80%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: center;  
+    
+}
+
+
+.box-1 {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'DM Sans';
+    width: 50%;
+    float: left;
+    
+}
+
+.box-2 {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'DM Sans';
+    width: 50%;
+    float: right;
+
+}
+
+.images {
+    padding: 15px;
+
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(sitebackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 { 
+    display: table-cell;
+    font-size: 30px;
+    font-family: 'Do Hyeon', arial, serif;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 57px;
+    
+    height: 100%;
+    
+    
+}
+
+hr {
+    margin: 0px;
+}
+
+
+nav {
+    font-family:
+
+    
+}
+
+nav a { 
+    color: rgba(0, 0, 0, 1);
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+    margin-right: 0;
+    padding-right: 0;
+    font-family: 'Do Hyeon', arial, serif;
+    text-decoration: none;
+
+}
+
+nav ul {
+    text-align: right;
+    vertical-align: middle;
+    margin-bottom: 0;
+
+    
+}
+
+nav ul li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+
+}
+
+main {
+    border: 5px solid rgba(255, 255, 255, 0,9); 
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+section {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+h2 {
+    font-size: 22px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: 0px;
+    font-family: 'Do Hyeon', arial, serif;
+
+}
+
+
+p {
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+}
+
+form {
+    width: 100%;
+}
+
+
+form label {
+    display: block;
+    margin: 15px;
+    width: 90%;
+}
+
+form label input {
+    display: block;
+    width: 100%;
+    
+}
+
+
+form label textarea {
+    display: block;
+    width: 100%;
+}
+
+#submit {
+    width: 50%;
+    
+}
+
+#reset {
+    width: 50%;
+}
+
+.man {
+    display: block;
+    
+}
+
+.man input {
+    width: 10%;
+    display: inline;
+}
+
+.man label {
+    width: 10%;
+    display: inline;
+}
+
+.vrouw {
+    display: block;
+    
+}
+
+.vrouw input {
+    width: 10%;
+    display: inline;
+}
+
+.vrouw label {
+    width: 10%;
+    display: inline;
+}
+
+.wiliknietzeggen {
+    display: block;
+    
+}
+
+.wiliknietzeggen input {
+    width: 10%;
+    display: inline;
+}
+
+.wiliknietzeggen label {
+    width: 10%;
+    display: inline;
+}
+
+.french {
+    display: block;
+    
+}
+
+.french input {
+    width: 10%;
+    display: inline;
+}
+
+.french label {
+    width: 10%;
+    display: inline;
+}
+
+.italian {
+    display: block;
+    
+}
+
+.italian input {
+    width: 10%;
+    display: inline;
+}
+
+.italian label {
+    width: 10%;
+    display: inline;
+}
+
+.spanish {
+    display: block;
+    
+}
+
+.spanish input {
+    width: 10%;
+    display: inline;
+}
+
+.spanish label {
+    width: 10%;
+    display: inline;
+}
+
+.arabic {
+    display: block;
+    
+}
+
+.arabic input {
+    width: 10%;
+    display: inline;
+}
+
+.arabic label {
+    width: 10%;
+    display: inline;
+}
+
+.geslacht {
+    margin: 15px;
+}
+
+.kitchen {
+    margin: 15px;
+}
+
+h1 a {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    
+}
+
+footer {
+    background-color: rgb(196,196,196, 0.7);
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: 'DM Sans';
+    height: 47px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+
+    .container {
+        width: 100%;
+        margin: auto; 
+              
+    }
+    
+    
+    
+    
+    .box-1 {
+        color: rgba(0, 0, 0, 1);
+        font-family: 'DM Sans';
+        width: 100%;
+      
+        
+        
+    }
+    
+    .box-2 {
+        color: rgba(0, 0, 0, 1);
+        font-family: 'DM Sans';
+        width: 100%;
+       
+    
+    }
+
+    .innerheader {
+        width: 100%;
+    }
+
+    .yellowbar {
+        width: 100%;
+    }
+
+    .menucontainer {
+        float: right;
+        padding-right: 4px;
+    }
+
+    h1 { 
+        font-size: 30px;
+        padding-top: 53px;
+
+    }
+
+    .menucontainer ul li {
+        padding-top: 49px;
+    }
+
+    nav ul li a {
+        display: inline;
+        font-size: 19px;
+    
+        
+    }
+
+    nav ul li {
+        text-align: left;
+        
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 22px;
+
+    }
+    
+
+    p { 
+        font-size: 20px
+    }
+
+    .ulcontent {
+        font-size: 20px;
+    }
+
+
+
+    img {
+        width: 90%;
+        height: 90%;
+    }
+
+    form {
+        font-size: 20px;
+    }
+
+
+    
+
+
+}
+
+/* Media Queries for tablet*/
+@media screen and (min-width: 768px) {
+
+    .container {
+        width: 80%;
+        margin: auto; 
+              
+    }
+    
+    
+    
+    
+    .box-1 {
+        color: rgba(0, 0, 0, 1);
+        font-family: 'DM Sans';
+        width: 100%;
+      
+        
+        
+    }
+    
+    .box-2 {
+        color: rgba(0, 0, 0, 1);
+        font-family: 'DM Sans';
+        width: 100%;
+       
+    
+    }
+    
+
+    .innerheader {
+        width: 80%;
+        
+    
+    }
+
+    .header {
+        margin-bottom: -100px;
+        padding-bottom: -10px;
+    }
+
+    .yellowbar {
+        margin-top: 0;
+        
+    }
+
+    .menucontainer ul li {
+        padding-top: 55px;
+    }
+
+
+
+    h1 { 
+        font-size: 32px;
+        padding-top: 59px;
+    }
+
+    nav ul li a {
+        display: inline;
+        font-size: 18px;
+    }
+
+
+
+    h2 {
+        font-size: 22px;
+
+    }
+    
+
+    p { 
+        font-size: 18px
+    }
+
+    .ulcontent {
+        font-size: 18px;
+    }
+
+    img {
+        width: 60%;
+        height: 60%;
+    }
+
+    form {
+        font-size: 18px;
+    }
+
+    .yellowbar {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+
+
+    
+
+
+}
+
+
+   
+@media screen and (min-width: 1024px) {
+
+    body {
+        line-height: 1em;
+            
+    }
+
+    .container {
+        width: 80%;
+        margin: auto; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        justify-content: center;  
+        
+    }
+    
+    
+    
+    
+    .box-1 {
+        color: rgba(0, 0, 0, 1);
+        font-family: 'DM Sans';
+        width: 50%;
+        float: left;
+        
+    }
+    
+    .box-2 {
+        color: rgba(0, 0, 0, 1);
+        font-family: 'DM Sans';
+        width: 50%;
+        float: right;
+    
+    }
+
+    .innerheader {
+        width: 80%;
+    }
+
+    h1 { 
+        font-size: 58px;
+    }
+
+    nav ul li a {
+        display: inline;
+        font-size: 20px;
+    }
+
+    h2 {
+   
+        font-size: 22px;
+    }
+
+    p { 
+        font-size: 15px;
+     
+    }
+
+    .ulcontent {
+        font-size: 15px;
+     
+    }
+
+    img {
+        width: 30%;
+        height: 30%;
+    }
+
+    form {
+        color: seagreen;
+    }
+
+    form label {
+        display: block;
+        margin: 15px;
+        width: 50%;
+        color: seagreen;
+    }
+    
+    form label input {
+        display: block;
+        width: 100%;
+        
+    }
+    
+    
+    form label textarea {
+        display: block;
+        width: 100%;
+    }
+    
+    #submit {
+        width: 50%;
+        
+    }
+
+    form {
+        font-size: 15px;
+    }
+
+    .yellowbar {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
